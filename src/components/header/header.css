@@ -1,0 +1,121 @@
+header {
+  background-image: url(./../../assets/images/mobile/image-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40rem;
+  padding: 3rem 2rem;
+  width: 100%;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo {
+  z-index: 100000000;
+}
+.sr-only {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  border: 0;
+}
+.hamburger {
+  background-image: url(./../../assets/images/icon-hamburger.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  z-index: 100;
+}
+.hamburger[aria-expanded="true"] {
+  background-image: url(./../../assets/images/icon-close.svg);
+}
+.header-nav {
+  display: none;
+  transform: translateX(100%);
+  background-color: black;
+  color: hsl(0, 0%, 55%);
+  transition: transform 500ms ease-in-out;
+}
+.header-nav[data-visible="true"] {
+  transform: translateX(0%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 1rem;
+}
+.header-nav li {
+  list-style: none;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+    font-size: 21px;
+}
+.title {
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  padding: 1.5rem 15rem 1.5rem 1rem;
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 10rem 0rem;
+  height: 100%;
+  font-size: 21px;
+  max-width: 350px;
+
+}
+.title h2{
+    font-weight: 300;  
+}
+@media (min-width:70rem) {
+  header{
+    padding: 4rem 7rem 0 7rem;
+    background-image: url(../../assets/images/desktop/image-hero.jpg);
+  min-height:32rem;
+ /* width: 100%; */
+  }
+  .hamburger{
+display: none;
+  }
+  .header-nav{
+    display: block;
+     transform: translateX(0%);
+     background-color: transparent;
+  }
+  .header-nav ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+ 
+  .header-nav li{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: .5rem;
+  }
+   .header-nav li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+  
+  }
+  .title{
+    max-width: 300px;
+    margin:5rem 0 0 0;
+    padding-right: 3rem;
+  }
+}

@@ -1,0 +1,208 @@
+main {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+picture {
+  max-width: 500px;
+}
+img {
+  width: 100%;
+}
+.subtitle {
+  text-transform: uppercase;
+  font-size: 25px;
+  padding: 2.5rem 2.5rem 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.details {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 55%);
+  padding-inline: 2rem;
+  line-height: 25px;
+}
+
+.creation-title {
+  margin: 5rem 0 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  color: hsl(0, 0%, 41%);
+}
+.showcase {
+  text-align: left;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+.showcase div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 150px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-end;
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+}
+.showcase p {
+  padding-right: 11rem;
+  font-size: 25px;
+  font-weight: 400;
+}
+.deep {
+  background-image: url(../../assets/images/mobile/image-deep-earth.jpg);
+}
+.night {
+  background-image: url(../../assets/images/mobile/image-night-arcade.jpg);
+}
+.soccer {
+  background-image: url(../../assets/images/mobile/image-soccer-team.jpg);
+}
+.grid {
+  background-image: url(../../assets/images/mobile/image-grid.jpg);
+}
+.grid p {
+  padding-right: 17rem;
+}
+.from {
+  background-image: url(../../assets/images/mobile/image-from-above.jpg);
+}
+.pocket {
+  background-image: url(../../assets/images/mobile/image-pocket-borealis.jpg);
+}
+.curiosity {
+  background-image: url(../../assets/images/mobile/image-curiosity.jpg);
+}
+.make {
+  background-image: url(../../assets/images/mobile/image-fisheye.jpg);
+}
+div.btn-wrap {
+  text-align: center;
+  display: block;
+  padding: 0 0;
+  margin-bottom: 0;
+}
+a.btn {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  letter-spacing: 4px;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  border: 1px solid hsl(0, 0%, 41%);
+}
+@media (min-width:45rem) {
+.showcase div {
+   
+    min-height: 350px;
+  }  
+}
+@media (min-width: 70rem) {
+  main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .vr {
+    text-align: left;
+    position: relative;
+    display: block;
+    height: 100%;
+  }
+  .vr-image {
+    width: 45%;
+  }
+  .leader-box {
+    position: absolute;
+    max-width: 680px;
+    text-align: start;
+    padding: 3rem 5rem 0 5rem;
+    bottom: 0.19rem;
+    right: 0rem;
+    background-color: #fff;
+  }
+  .subtitle {
+    margin-bottom: 1rem;
+    padding: 0 10rem 0 0;
+  }
+  .details {
+    padding: 0 5.5rem 0 0;
+  }
+  .showcase-container {
+    position: relative;
+    text-align: start;
+  }
+  .showcase {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 1rem;
+  }
+  .showcase div {
+    margin-bottom: 0;
+    min-height: 450px;
+    z-index: 0;
+    position: relative;
+z-index: 0;
+  }
+  .showcase div:hover{
+cursor: pointer;
+color: hsl(0, 3%, 72%);
+opacity:0.5;
+
+  }
+  .showcase p {
+    padding-right: 8rem;
+    font-size: 18px;
+font-weight: 900;
+    opacity: 1;
+ 
+ z-index: 10000;
+
+  }
+
+  .grid p {
+    padding-right: 9rem;
+    
+    
+  }
+  .deep {
+    background-image: url(../../assets/images/desktop/image-deep-earth.jpg);
+  }
+  .night {
+    background-image: url(../../assets/images/desktop/image-night-arcade.jpg);
+  }
+  .soccer {
+    background-image: url(../../assets/images/desktop/image-soccer-team.jpg);
+  }
+  .grid {
+    background-image: url(../../assets/images/desktop/image-grid.jpg);
+  }
+  .from {
+    background-image: url(../../assets/images/desktop/image-from-above.jpg);
+  }
+  .pocket {
+    background-image: url(../../assets/images/desktop/image-pocket-borealis.jpg);
+  }
+  .curiosity {
+    background-image: url(../../assets/images/desktop/image-curiosity.jpg);
+  }
+  .make {
+    background-image: url(../../assets/images/desktop/image-fisheye.jpg);
+  }
+  div.btn-wrap {
+    position: absolute;
+    top: 4.8rem;
+    right: 0;
+  }
+  a.btn {
+    padding: 0.5rem 1.5rem;
+  }
+  a.btn:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+}
