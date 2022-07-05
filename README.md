@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![]mobile(Caputure087.png)
+![mobile](Caputure087.png)
 ![ipad](Caputure088.png)
 ![desktop](Caputure089.png)
 
@@ -47,17 +47,7 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
-- [Styled Components](https://styled-components.com/) - For styles
 
-
-
-### What I learned
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 
 ### Continued development
