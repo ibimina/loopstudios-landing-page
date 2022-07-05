@@ -28,7 +28,7 @@ if (araia==="false") {
          aria-controls="header-nav"
          aria-expanded={araia}
          onClick={handleClick}
-         role="navigation menu"
+         
        >
          <span className="sr-only">menu</span>
        </button>

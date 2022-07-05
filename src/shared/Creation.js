@@ -13,7 +13,7 @@ function Creation(props) {
         })}
       </div>
       <div className="btn-wrap">
-        <a href="##" className="btn">
+        <a href="#mm" className="btn">
           {seeAll.toUpperCase()}
         </a>
       </div>

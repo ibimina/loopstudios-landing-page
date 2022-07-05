@@ -6,9 +6,11 @@ export default function Intro(props) {
   const {subtitle,details}=props
   return (
     <div>
+
       <div className="vr">
+       
         <picture className="vr-image">
-          <source media="(min-width:70rem )" src={vrimageDesktop} />
+          <source media="(min-width:70rem )" srcset={vrimageDesktop} />
           <img src={vrimage} alt="a man using an interactive vr" className="vr-image" />
         </picture>
         <div className="leader-box">
