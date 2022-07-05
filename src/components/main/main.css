@@ -46,7 +46,7 @@ img {
   padding-bottom: 1rem;
 }
 .showcase p {
-  padding-right: 11rem;
+  padding-right: 10rem;
   font-size: 25px;
   font-weight: 400;
 }
@@ -158,7 +158,7 @@ opacity:0.5;
     font-size: 18px;
 font-weight: 900;
     opacity: 1;
- 
+
  z-index: 10000;
 
   }
