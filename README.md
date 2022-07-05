@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile](Caputure087.png)
-![ipad](Caputure088.png)
-![desktop](Caputure089.png)
+![mobile](Capture087.png)
+![ipad](Capture088.png)
+![desktop](Capture089.png)
 
 ### Links
 
